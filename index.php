@@ -1,3 +1,10 @@
+<?php
+
+$main_title = "php";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +16,7 @@
 </head>
 
 <body>
-    <h1>ciao</h1>
+    <h1>ciao <?php echo $main_title ?> </h1>
 </body>
 
 </html>
