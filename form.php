@@ -1,10 +1,3 @@
-<?php
-
-$main_title = "php";
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +7,10 @@ $main_title = "php";
     <title>Document</title>
 </head>
 <body>
-<h1>ciao <?php echo $main_title ?> </h1>
+<h1><?php
+
+echo $_GET["badword"];
+
+?></h1>
 </body>
 </html>
